@@ -1,0 +1,115 @@
+*{  
+    margin: 0;  
+    padding: 0;  
+}  
+        
+header, section, footer, aside, nav, article, div {  
+    display: block;  
+}
+
+body, td {
+	background: #f0f0f0;
+	font: 14px/22px Helvetica, Arial, sans-serif;
+}	
+
+#heading {
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: -50px;
+}
+
+html, body {  
+    height: 100%;
+	margin: 0 auto;
+}	
+
+#content {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+	width: 1080px;
+}	
+
+#footer, #push {
+	height: 4em;
+	clear: both;
+}
+
+      
+h2 {
+	position:relative;
+	margin-top: 3em;
+	font-size: 24px;
+	padding: 20px;
+}  
+
+  
+nav ul li a {  
+     display: inline-block;  
+     margin: 0;  
+     padding: 0;  
+     font-size: 16px;  
+     line-height: 44px;  
+     text-align: center;  
+     text-decoration: none;  
+     color: #777; 
+	 border-style: groove;
+	 border-width: 1px;
+	 float: left;
+
+ }  
+      
+nav ul li a:hover {  
+    color: #000000;  
+}  
+      
+nav ul li.selected a {  
+     color: #fff;  
+}	
+
+ul {
+	list-style-type:none;
+	
+} 
+
+#leftnav {
+	position: relative;
+}
+
+#leftnav li {
+	width:150px;
+	background-color: #ffffff;
+}
+
+#leftnav a {
+	width:150px;
+	
+}
+
+#leftnav ul {
+	width:150px;
+}
+
+#orderCart {
+	position: relative;
+}
+
+#cart {
+	position: relative;
+}
+
+#empty {
+	position: relative;
+}
+
+#checkOut {
+	position: relative;
+}
+
+#productDisplay {
+
+	right: 50px;
+
+}

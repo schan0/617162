@@ -101,11 +101,11 @@ ul {
 }
 
 #empty {
-	position: relative;
+	position: absolute;
 }
 
 #checkOut {
-	position: relative;
+	position: absolute;
 }
 
 #productDisplay {
